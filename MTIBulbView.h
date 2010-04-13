@@ -15,7 +15,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
@@ -27,7 +27,7 @@ typedef enum {
 	MTIBulbViewAlignRight		= 1
 } MTIBulbViewAlignment;
 
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 @interface MTIBulbView : UIView {
 #else
 @interface MTIBulbView : NSView {

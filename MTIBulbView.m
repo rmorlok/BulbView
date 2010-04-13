@@ -624,7 +624,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	litColor = CGColorRetain(color);
 	[self didChangeValueForKey:@"litColor"];
 
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
 	[self setNeedsDisplay:YES];
@@ -642,7 +642,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	dimColor = CGColorRetain(color);
 	[self didChangeValueForKey:@"dimColor"];
 	
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
 	[self setNeedsDisplay:YES];
@@ -659,7 +659,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	text = [t retain];
 	[self didChangeValueForKey:@"text"];
 	
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
 	[self setNeedsDisplay:YES];
@@ -672,14 +672,14 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	alignment = align;
 	[self didChangeValueForKey:@"alignment"];
 	
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
 	[self setNeedsDisplay:YES];
 #endif
 }
 
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 - (id)initWithFrame:(CGRect)frame {
 #else
 - (id)initWithFrame:(NSRect)frame {
@@ -702,7 +702,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	}
 }
 
-#ifdef __IPHONE_3_0
+#if TARGET_OS_IPHONE
 - (void)drawRect:(CGRect)rect {
 	CGContextRef myContext = UIGraphicsGetCurrentContext();
 	
