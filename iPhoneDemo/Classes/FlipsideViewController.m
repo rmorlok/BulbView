@@ -16,12 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];      
+    self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];
 }
 
 
 - (IBAction)done {
-	[self.delegate flipsideViewControllerDidFinish:self];	
+	[self.delegate flipsideViewControllerDidFinish:self];
 }
 
 
@@ -36,7 +36,7 @@
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-	
+
 	// Release any cached data, images, etc that aren't in use.
 }
 

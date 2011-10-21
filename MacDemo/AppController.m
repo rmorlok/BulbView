@@ -6,9 +6,9 @@
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-// 
+//
 // http://www.apache.org/licenses/LICENSE-2.0
-// 
+//
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,7 +30,7 @@
 	bulbView.litColor	= CGColorCreateGenericRGB(1.0, 0.0, 0.0, 1.0);
 	bulbView.dimColor	= CGColorCreateGenericRGB(0.90625, 0.80, 0.80, 1.0);
 	bulbView.text		= @"00:00:00";
-	
+
 	timer = [NSTimer scheduledTimerWithTimeInterval:0.25
 											 target:self
 										   selector:@selector(tick:)
@@ -45,8 +45,8 @@
 		[bulbView setText:@"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+{}[]:;\"'<>,./?\\|"];
 	} else {
 		NSDate *now = [NSDate date];
-		NSString *timeString = [now descriptionWithCalendarFormat:@"%H:%M:%S" 
-														 timeZone:nil 
+		NSString *timeString = [now descriptionWithCalendarFormat:@"%H:%M:%S"
+														 timeZone:nil
 														   locale:[[NSUserDefaults standardUserDefaults] dictionaryRepresentation]];
 		[bulbView setText:timeString];
 	}
