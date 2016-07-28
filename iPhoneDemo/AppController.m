@@ -6,9 +6,9 @@
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-// 
+//
 // http://www.apache.org/licenses/LICENSE-2.0
-// 
+//
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,9 +30,9 @@
 	bulbView.litColor	= CGColorCreate(rgb, red);
 	bulbView.dimColor	= CGColorCreate(rgb, clearRed);
 	CGColorSpaceRelease(rgb);
-	
+
 	bulbView.text		= @"00:00:00";
-	
+
 	timer = [NSTimer scheduledTimerWithTimeInterval:0.25
 											 target:self
 										   selector:@selector(tick:)

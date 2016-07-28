@@ -6,9 +6,9 @@
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-// 
+//
 // http://www.apache.org/licenses/LICENSE-2.0
-// 
+//
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -36,7 +36,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 {
 	if( c >= 'a' && c <= 'z' )
 		c = 'A' + (c - 'a');
-	
+
 	switch (c) {
 		case '0' :
 		{
@@ -46,7 +46,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '1' : 
+		case '1' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
@@ -54,7 +54,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case '2' : 
+		case '2' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -62,7 +62,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 1, 1, 1) );
 			break;
 		}
-		case '3' : 
+		case '3' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -70,7 +70,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '4' : 
+		case '4' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
@@ -78,7 +78,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '5' : 
+		case '5' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -86,7 +86,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 0, 0, 1) );
 			break;
 		}
-		case '6' : 
+		case '6' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -94,7 +94,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 0, 0, 1) );
 			break;
 		}
-		case '7' : 
+		case '7' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
@@ -102,7 +102,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '8' : 
+		case '8' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -110,7 +110,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '9' : 
+		case '9' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 1) );
@@ -118,7 +118,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'A' : 
+		case 'A' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 1) );
@@ -126,7 +126,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 0) );
 			break;
 		}
-		case 'B' : 
+		case 'B' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -134,7 +134,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 1, 1, 0) );
 			break;
 		}
-		case 'C' : 
+		case 'C' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
@@ -142,7 +142,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'D' : 
+		case 'D' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
@@ -150,7 +150,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			break;
 		}
-		case 'E' : 
+		case 'E' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -158,7 +158,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'F' : 
+		case 'F' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 1) );
@@ -166,7 +166,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'G' : 
+		case 'G' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
@@ -174,7 +174,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 0, 1, 0) );
 			break;
 		}
-		case 'H' : 
+		case 'H' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
@@ -182,14 +182,14 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'I' : 
+		case 'I' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'J' : 
+		case 'J' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
@@ -197,7 +197,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'K' : 
+		case 'K' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
@@ -205,14 +205,14 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'L' : 
+		case 'L' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case 'M' : 
+		case 'M' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 0) );
@@ -221,7 +221,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'N' : 
+		case 'N' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 1, 0) );
@@ -230,7 +230,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'O' : 
+		case 'O' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
@@ -238,7 +238,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			break;
 		}
-		case 'P' : 
+		case 'P' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 1) );
@@ -246,7 +246,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 1, 0) );
 			break;
 		}
-		case 'Q' : 
+		case 'Q' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 0, 0, 0, 1) );
@@ -254,7 +254,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 1, 1, 1, 1, 0) );
 			break;
 		}
-		case 'R' : 
+		case 'R' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 1, 0, 0, 1) );
@@ -262,7 +262,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 1, 1, 0) );
 			break;
 		}
-		case 'S' : 
+		case 'S' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 0, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 0, 0, 1) );
@@ -270,7 +270,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 0, 1, 0) );
 			break;
 		}
-		case 'T' : 
+		case 'T' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
@@ -279,7 +279,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'U' : 
+		case 'U' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
@@ -287,7 +287,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'V' : 
+		case 'V' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 0, 0, 0) );
@@ -296,7 +296,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 1, 1) );
 			break;
 		}
-		case 'W' : 
+		case 'W' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 0, 0, 0, 0) );
@@ -305,7 +305,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case 'X' : 
+		case 'X' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 1, 1, 0) );
@@ -314,7 +314,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'Y' : 
+		case 'Y' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 1, 0) );
@@ -323,7 +323,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case 'Z' : 
+		case 'Z' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 1, 0, 0, 0, 1) );
@@ -332,12 +332,12 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 1, 1) );
 			break;
 		}
-		case '!' : 
+		case '!' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '@' : 
+		case '@' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
@@ -346,7 +346,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 1, 1, 0) );
 			break;
 		}
-		case '#' : 
+		case '#' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
@@ -355,7 +355,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
 			break;
 		}
-		case '$' : 
+		case '$' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 1, 0, 1, 0) );
@@ -364,7 +364,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 0, 0, 0) );
 			break;
 		}
-		case '%' : 
+		case '%' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 0, 1, 1) );
@@ -373,14 +373,14 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case '^' : 
+		case '^' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 0) );
 			break;
 		}
-		case '&' : 
+		case '&' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 0, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 1, 1, 0, 1) );
@@ -389,7 +389,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 1, 0, 0, 0, 0) );
 			break;
 		}
-		case '*' : 
+		case '*' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 1, 1, 0) );
@@ -397,41 +397,41 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 1) );
 			break;
 		}
-		case ')' : 
+		case ')' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			break;
 		}
-		case '(' : 
+		case '(' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 1, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case '"' : 
+		case '"' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 1) );
 			break;
 		}
-		case '\'' : 
+		case '\'' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 1) );
 			break;
 		}
-		case ':' : 
+		case ':' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 0, 1, 0) );
 			break;
 		}
-		case ';' : 
+		case ';' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 0, 1, 0) );
 			break;
 		}
-		case '_' : 
+		case '_' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
@@ -439,66 +439,66 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case '-' : 
+		case '-' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			break;
 		}
-		case '+' : 
+		case '+' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 1, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			break;
 		}
-		case '=' : 
+		case '=' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
 			break;
 		}
-		case '|' : 
+		case '|' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '\\' : 
+		case '\\' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 1, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case '}' : 
+		case '}' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			break;
 		}
-		case '{' : 
+		case '{' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 1, 0, 1, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case ']' : 
+		case ']' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			break;
 		}
-		case '[' : 
+		case '[' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 1, 1, 1, 1, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case '>' : 
+		case '>' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 0, 0, 1, 0) );
@@ -506,7 +506,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			break;
 		}
-		case '<' : 
+		case '<' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 1, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 0, 1, 0, 0) );
@@ -514,25 +514,25 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 1) );
 			break;
 		}
-		case '.' : 
+		case '.' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case ',' : 
+		case ',' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 1, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case '/' : 
+		case '/' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 1, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 1, 1, 1, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 1) );
 			break;
 		}
-		case ' ' : 
+		case ' ' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
@@ -540,7 +540,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 0, 0) );
 			break;
 		}
-		case '?' : 
+		case '?' :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 1, 1, 0, 0, 1) );
@@ -548,7 +548,7 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 1, 1, 0) );
 			break;
 		}
-		default : 
+		default :
 		{
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(0, 0, 0, 0, 0, 1, 0) );
 			setBulbsForCol(bulbArray, (*curCol)++, numCols, MAKEBYTE(1, 0, 1, 1, 0, 0, 1) );
@@ -559,10 +559,10 @@ void setBulbsForChar(char* bulbArray, char c, NSUInteger *curCol, NSUInteger num
 	}
 }
 
-void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, char bulb) 
+void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, char bulb)
 {
 	CGContextSaveGState(context);
-	
+
 	CGContextSetFillColorWithColor(context, (bulb & (0x1 << 0) ? litColor : dimColor));
 	CGContextFillEllipseInRect(context, CGRectMake(0, 0.0*(BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE), BULB_UNSCALED_DIAMETER, BULB_UNSCALED_DIAMETER));
 	CGContextSetFillColorWithColor(context, (bulb & (0x1 << 1) ? litColor : dimColor));
@@ -577,7 +577,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	CGContextFillEllipseInRect(context, CGRectMake(0, 5.0*(BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE), BULB_UNSCALED_DIAMETER, BULB_UNSCALED_DIAMETER));
 	CGContextSetFillColorWithColor(context, (bulb & (0x1 << 6) ? litColor : dimColor));
 	CGContextFillEllipseInRect(context, CGRectMake(0, 6.0*(BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE), BULB_UNSCALED_DIAMETER, BULB_UNSCALED_DIAMETER));
-	
+
 	CGContextRestoreGState(context);
 }
 
@@ -592,7 +592,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 
 - (CGAffineTransform) scaleTranformForFrame
 {
-	// Compute how much we should scale our drawing based on the 
+	// Compute how much we should scale our drawing based on the
 	// needed height versus the height that is available.
 	CGFloat scale = [self getScaleFactor];
 	return CGAffineTransformMakeScale(scale, scale);
@@ -617,10 +617,10 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 {
 	if( color == litColor )
 		return;
-	
+
 	[self willChangeValueForKey:@"litColor"];
 	CGColorRelease(litColor);
-	
+
 	litColor = CGColorRetain(color);
 	[self didChangeValueForKey:@"litColor"];
 
@@ -638,10 +638,10 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 
 	[self willChangeValueForKey:@"dimColor"];
 	CGColorRelease(dimColor);
-	
+
 	dimColor = CGColorRetain(color);
 	[self didChangeValueForKey:@"dimColor"];
-	
+
 #if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
@@ -653,12 +653,12 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 {
 	if( text == t )
 		return;
-	
+
 	[self willChangeValueForKey:@"text"];
 	[text release];
 	text = [t retain];
 	[self didChangeValueForKey:@"text"];
-	
+
 #if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
@@ -671,7 +671,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	[self willChangeValueForKey:@"alignment"];
 	alignment = align;
 	[self didChangeValueForKey:@"alignment"];
-	
+
 #if TARGET_OS_IPHONE
 	[self setNeedsDisplay];
 #else
@@ -695,9 +695,9 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 {
 	// Draw the digits
 	for(NSUInteger i = 0; i < length; i++) {
-		if( i > 0 ) 
+		if( i > 0 )
 			CGContextTranslateCTM(context, BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE, 0);
-				
+
 		DrawCol(context, litColor, dimColor, bulbArray[i]);
 	}
 }
@@ -705,7 +705,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 #if TARGET_OS_IPHONE
 - (void)drawRect:(CGRect)rect {
 	CGContextRef myContext = UIGraphicsGetCurrentContext();
-	
+
 	// Transform coordinate system to account for different origin points
 	CGContextTranslateCTM(myContext, 0.0, rect.size.height);
 	CGContextScaleCTM(myContext, 1.0, -1.0);
@@ -713,35 +713,35 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 - (void)drawRect:(NSRect)rect {
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 #endif
-	
+
 	// Get the number of bulb columns that are visible
 	NSUInteger totalCols = [self getVisibleCols];
-	
+
 	if( totalCols <= 0 )
 		return;
-	
+
 	// Allocate an array to hold the lit state of the bulbs
 	// Each column of bulbs is stored as a byte bitmask
 	char *bulbArray = malloc(totalCols * sizeof(char));
 	memset(bulbArray, 0, totalCols * sizeof(char));
-	
+
 	// Fill the array with bulb states
 	NSUInteger curCol  = 0;
 	NSUInteger curChar = 0;
 	while( curCol < totalCols
 		  && curChar < text.length ) {
-		
+
 		// Set the char in the bit array (updates curCol as cols added)
 		setBulbsForChar(bulbArray, [text characterAtIndex:curChar++], &curCol, totalCols);
-		
+
 		// Add spacing col if we have more characters
 		if( curChar < text.length )
 			curCol++;
 	}
-	
+
 	// Scale the drawing for the current size of the view
 	CGContextConcatCTM(myContext, [self scaleTranformForFrame]);
-	
+
 	NSUInteger colsBefore = 0;
 	NSUInteger middleCols = (curCol < totalCols ? curCol : totalCols);
 	NSUInteger colsAfter  = 0;
@@ -759,32 +759,32 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 			colsAfter  = 0;
 			break;
 	}
-	
+
 	for(int i = 0; i < colsBefore; i++) {
-		if( i > 0 ) 
+		if( i > 0 )
 			CGContextTranslateCTM(myContext, BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE, 0);
-		
+
 		DrawCol(myContext, litColor, dimColor, (char)0);
 	}
-	
-	if( colsBefore > 0 
-	   && totalCols > colsBefore ) 
+
+	if( colsBefore > 0
+	   && totalCols > colsBefore )
 		CGContextTranslateCTM(myContext, BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE, 0);
-	
+
 	// Draw the bulbs
 	[self drawBulbs:bulbArray length:middleCols context:myContext];
-	
-	if( colsAfter > 0 
-	   && totalCols > (colsBefore + middleCols) ) 
+
+	if( colsAfter > 0
+	   && totalCols > (colsBefore + middleCols) )
 		CGContextTranslateCTM(myContext, BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE, 0);
-	
+
 	for(int i = 0; i < colsAfter; i++) {
-		if( i > 0 ) 
+		if( i > 0 )
 			CGContextTranslateCTM(myContext, BULB_UNSCALED_DIAMETER + BULB_UNSCALED_SPACE, 0);
-	
+
 		DrawCol(myContext, litColor, dimColor, (char)0);
 	}
-	
+
 	free(bulbArray);
 }
 
@@ -797,7 +797,7 @@ void DrawCol(CGContextRef context, CGColorRef litColor, CGColorRef dimColor, cha
 	text = nil;
 	litColor = NULL;
 	dimColor = NULL;
-	
+
 	[super dealloc];
 }
 @end

@@ -7,7 +7,7 @@
 //
 
 @interface FlipsideView : UIView {
-	
+
 }
 
 @end
