@@ -202,46 +202,6 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>1B77282C0FE9FFBC00D2964E</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>MTIBulbView.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>1B77282D0FE9FFBC00D2964E</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>MTIBulbView.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>1BB6F8891173D5E300764FF8</string>
-						<key>history</key>
-						<array>
-							<string>1BB6F8771173D4AF00764FF8</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1285, 847}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>2555 86 1285 888 1920 0 1920 1080 </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
 				<string>1B77282F0FE9FFBC00D2964E</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>MTIBulbView.h</string>
@@ -256,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>1BB6F88A1173D5E300764FF8</string>
+						<string>1BB6F96C117A6B0000764FF8</string>
 						<key>history</key>
 						<array>
-							<string>1BB6F8751173D4AF00764FF8</string>
+							<string>1BB6F88A1173D5E300764FF8</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -276,6 +236,46 @@
 				<false/>
 				<key>RubberWindowFrame</key>
 				<string>2222 114 1285 888 1920 0 1920 1080 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>1B77282C0FE9FFBC00D2964E</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>MTIBulbView.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>1B77282D0FE9FFBC00D2964E</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>MTIBulbView.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>1BB6F96D117A6B0000764FF8</string>
+						<key>history</key>
+						<array>
+							<string>1BB6F8891173D5E300764FF8</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1285, 847}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>2555 86 1285 888 1920 0 1920 1080 </string>
 			</dict>
 		</dict>
 	</array>
@@ -310,6 +310,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -356,7 +358,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>12</integer>
 									<integer>8</integer>
 									<integer>0</integer>
 								</array>
@@ -381,7 +383,7 @@
 							<real>254</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>474 160 1598 898 0 0 1920 1058 </string>
+						<string>2101 130 1598 898 1920 0 1920 1080 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -392,14 +394,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AppController.m</string>
+								<string>AppController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -407,11 +407,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AppController.m</string>
+										<string>AppController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1BB6F8881173D5E300764FF8</string>
+										<string>1BB6F969117A6B0000764FF8</string>
 										<key>history</key>
 										<array>
 											<string>1B7728080FE9F85900D2964E</string>
@@ -420,11 +420,11 @@
 											<string>1BC5E2B30FEA04C40083AD5D</string>
 											<string>1BC5E2B40FEA04C40083AD5D</string>
 											<string>1BC5E2B50FEA04C40083AD5D</string>
-											<string>1BC5E2B80FEA04C40083AD5D</string>
 											<string>1BC5E2B90FEA04C40083AD5D</string>
 											<string>1BB6F86F1173D2B900764FF8</string>
 											<string>1BB6F8871173D5E300764FF8</string>
-											<string>1BC5E2B70FEA04C40083AD5D</string>
+											<string>1BB6F968117A6B0000764FF8</string>
+											<string>1BC5E2B80FEA04C40083AD5D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -436,14 +436,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1322, 576}}</string>
+								<string>{{0, 0}, {1322, 569}}</string>
 								<key>RubberWindowFrame</key>
-								<string>474 160 1598 898 0 0 1920 1058 </string>
+								<string>2101 130 1598 898 1920 0 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>576pt</string>
+							<string>569pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -456,14 +456,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 581}, {1322, 276}}</string>
+								<string>{{0, 574}, {1322, 283}}</string>
 								<key>RubberWindowFrame</key>
-								<string>474 160 1598 898 0 0 1920 1058 </string>
+								<string>2101 130 1598 898 1920 0 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>276pt</string>
+							<string>283pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -482,9 +482,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1BB6F8801173D57E00764FF8</string>
+				<string>1BB6F96A117A6B0000764FF8</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1BB6F8811173D57E00764FF8</string>
+				<string>1BB6F96B117A6B0000764FF8</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -621,13 +621,12 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1BF6B2CE0FCCECE600782FF4</string>
-		<string>1B7728470FEA00B100D2964E</string>
-		<string>1B77282F0FE9FFBC00D2964E</string>
 		<string>1B77282C0FE9FFBC00D2964E</string>
+		<string>1B77282F0FE9FFBC00D2964E</string>
 		<string>/Users/ryanmorlok/Dropbox/ryanroot/ryan-projects/Development/BulbView/iPhoneDemo/BulbScreen.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>474 160 1598 898 0 0 1920 1058 </string>
+	<string>2101 130 1598 898 1920 0 1920 1080 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -704,7 +703,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1BF6B2CE0FCCECE600782FF4</string>
-				<string>1BB6F8851173D57E00764FF8</string>
+				<string>1BB6F96E117A6B0000764FF8</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
